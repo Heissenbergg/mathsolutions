@@ -1,0 +1,14 @@
+users :
+1. id
+2. mail
+3. password
+4. name
+5. phone
+6. parentname
+7. adress
+6. category 
+    0. no access 
+    1. only reqeuest
+    2. registered user
+    5 moderator
+    6. admin

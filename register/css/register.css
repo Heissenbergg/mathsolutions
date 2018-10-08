@@ -1,0 +1,35 @@
+#mainWrapper { position: fixed; top: 0; left: 0;  width: 100%; height: 100%; }
+
+
+#mainWrapper #mainWrapperFormWrapper {  position: fixed; top: 10%; left: calc(50% - 225px); width: 450px; height: 650px; }
+
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperHeader {  position: absolute; top: 0; left: 50px; right: 50px; width: calc(100% - 100px); height: 80px;  text-align: center; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperHeader h1 { font-family: garamond; font-size:30px; font-weight: bold; padding: 0; margin: 0; margin-top: 20px; color: #333; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperHeader h1 letter { color: #333; }
+
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper {  position: absolute; top: 80px; left: 50px; right: 50px; width: calc(100% - 100px); height: calc(100% - 80px); }
+
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInputs { background: white; position: relative; top: 0; left: 0; width: 100%; height: auto; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInputs p { padding: 0; margin: 0; margin-bottom: 5px; font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 15px; color: #777; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInputs input { box-shadow: inset 0 1px 2px rgba(0,0,0,0.3); outline: none; width: calc(100% - 15px); height: 40px; padding: 0; margin: 0; margin-bottom: 20px; padding-left: 10px; font-family: garamond; font-size: 17px; border: 1px solid #999; border-radius: 2px; }
+
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperSubmit #submit { outline: none; box-shadow: none; width: 40%; height: 40px; border: none; border-radius: 2px; margin: 0; padding: 0; margin-left: 60%; background: #f96816; color: white; font-family: 'Roboto', sans-serif; font-size: 18px; transition: background-color 0.5s ease; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperSubmit #submit:hover { cursor: pointer; background: #fd772b; }
+
+
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #ispisKursa { position: absolute; color: #00C6FF; padding: 0; margin: 0; font-family: garamond; font-size: 16px; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #ispisKursa1 { position: absolute; color: #00C6FF; padding: 0; margin: 0; margin-top: 20px; font-family: garamond; font-size: 16px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

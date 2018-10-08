@@ -1,0 +1,254 @@
+body{overflow-x: hidden;}
+
+#backgroundImage{position: fixed; left: 0px; top: 60px; width: 100%; height:calc(100% - 60px);}
+#backgroundImage img{position: absolute; left: 0px; top: 0px; width: 100%;}
+
+#mainSlider{position:relative; left: -10px; top: 60px; width: calc(100% + 20px); height: auto; }
+#mainSlider img{position: relative; left: 0px; top: 0px; width: 100%; margin:0px;}
+
+#mainSlider #mainBackground{opacity: 1;}
+#mainSlider #mobileBackground{display: none;}
+
+#mainSlider #mainSliderShadow{position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;  transition: all 0.5s ease-out; background:rgba(0,0,0,0.6);}
+#mainSlider #mainSliderShadow:hover{/* background:rgba(0,0,0,0.75); */}
+
+#mainSlider #mainSliderMiddleText{position: absolute; left: 200px; top: 150px; width: calc(100% - 400px); height: calc(100% - 300px);}
+
+#mainSlider #mainSliderMiddleText #mainSliderMiddleTextHugeText{position: absolute; left: 0px; top: 0px; width: 100%; height: calc(50% - 50px); text-align:center;}
+#mainSlider #mainSliderMiddleText #mainSliderMiddleTextHugeText h2{font-family: garamond; font-size:50px; color:#fff; margin:0px; margin-top:0px; position: absolute; bottom: 30px; width:100%; text-align:center;}
+
+#mainSlider #mainSliderMiddleText #mainSliderMiddleTextDesc{position: absolute; left: 0px; top: calc(50% - 50px); width: 100%; height: 100px; text-align:center; }
+#mainSlider #mainSliderMiddleText #mainSliderMiddleTextDesc p{font-family: garamond; color:#fff; font-size:22px;}
+
+#mainSlider #mainSliderMiddleText #mainSliderMiddleTextCourses{position: absolute; background:#00C6FF; width: 200px; height: 40px; top: calc(50% + 160px); left: calc(50% - 100px); text-align:center; border-radius: 3px; transition: all 0.5s ease-in-out;}
+#mainSlider #mainSliderMiddleText #mainSliderMiddleTextCourses:hover{background:#f96816; cursor: pointer;}
+#mainSlider #mainSliderMiddleText #mainSliderMiddleTextCourses a{color:#fff; font-family: garamond; font-size:18px; margin-top:9px; display: block;}
+
+#mainSlider #mainSliderMiddleText #mainSliderMiddleTextCoursesMobile{position: absolute; z-index:100; display: none; right: 40px; bottom: -20px; width: 60px; height: 60px; background:#00C6FF; border-radius: 50%;}
+#mainSlider #mainSliderMiddleText #mainSliderMiddleTextCoursesMobile img{position: absolute; left:0px; top: 0px; right: 0px; bottom: 0px; width:30px; height: 30px; margin:auto;}
+
+#mainSlider #socialNetworks{position: absolute; top: 50px; right: 42px; width: 300px; height: 50px;}
+#mainSlider #socialNetworks .socialNetworksIcon{position:absolute; margin-left:0; -webkit-transition: 2s; transition: 2s; right: 0px; top:0px; width:40px; height:40px; border:1px solid rgba(255,255,255,0.1); border-radius: 50%;}
+#mainSlider #socialNetworks .socialNetworksIcon:hover{cursor: pointer;}
+#mainSlider #socialNetworks .socialNetworksIcon i{color:#fff; position: absolute; font-size:20px; left:11px; top:10px;}
+#mainSlider #socialNetworks .socialNetworksIcon:hover{background:#00C6FF;}
+
+#mainSlider #socialNetworks #sliderFacebook,
+#mainSlider #socialNetworks #sliderYoutube,
+#mainSlider #socialNetworks #sliderInstagram,
+#mainSlider #socialNetworks #sliderPinterest{opacity: 0;}
+
+#mainSlider #courseBegins{position: absolute; top: 50px; left: 42px; width: 400px; height: 50px;}
+#mainSlider #courseBegins p{color:#fff;  font-size:20px; margin:0px;}
+#mainSlider #courseBegins p date{font-weight: lighter; color:#fff; margin-left:10px;}
+
+/** END OF SLIDER **/
+
+
+#littleAbout{position: relative; left: -20px; top: 60px; width:calc(100% + 40px); height:auto; background:#fff;}
+#littleAbout #littleAboutHeader{position: relative; left: 0px; top: 0px; width: 100%; height: 100px; }
+#littleAbout #littleAboutHeader h2{position: absolute; width: 100%; text-align: center; margin:0px; font-family: garamond; font-size:26px; margin-top:30px;}
+
+#littleAbout #littleAboutBody{position: relative; text-align:center; left: 150px; top: 0px; width: calc(100% - 300px);}
+#littleAbout #littleAboutBody p{font-family: garamond; font-size:18px; margin:0px;}
+
+#littleAbout #littleAboutBody p a{color:#00C6FF;}
+/** END OF littleAbout **/
+
+#aboutUs{position: relative; left: -20px;  top: 60px; width: calc(100% + 40px); height: 900px; background:rgba(0,0,0,0.3);}
+
+#aboutUs #aboutUsHeader{position: absolute; left: 150px; top: 0px; width: calc(100% - 300px); height: 200px; text-align:center;}
+#aboutUs #aboutUsHeader h2{position: absolute; width: 100%; text-align: center; margin:0px; font-family: garamond; font-size:38px; margin-top:40px; color:#fff;}
+#aboutUs #aboutUsHeader p{position: absolute; top: 80px; left:0px; width: 100%; text-align:center; color:#fff; font-size:18px;}
+
+
+#aboutUs .singleUser{position: absolute; width: 300px; height: 500px; top: 150px; left: calc(50% - 320px);}
+#aboutUs .singleUser2{left: calc(50% + 20px);}
+#aboutUs .singleUser3{left: calc(50% - 660px); top: 250px;}
+#aboutUs .singleUser4{left: calc(50% + 360px); top: 250px;}
+
+#aboutUs .singleUser .singleUserImage{position: absolute; left: 50px; top: 0px; width: calc(100% - 120px); height: 180px; z-index: 400; border:10px solid #fff; border-radius: 40%; overflow:hidden;}
+#aboutUs .singleUser .singleUserImage img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; max-width: 100%; max-height: 100%; margin:auto;}
+
+#aboutUs .singleUser .singleUserBody{position: absolute; left: 0px; top: 100px; width: 100%; height: calc(100% - 100px); background:#fff; border-radius: 5px;}
+#aboutUs .singleUser .singleUserBody .singleUserName{position: absolute; left: 0px; top: 100px; width: 100%; height:40px;}
+#aboutUs .singleUser .singleUserBody .singleUserName p{font-family: 'Roboto', sans-serif; text-align:center; margin:0px; margin-top:6px; font-weight: bold;}
+
+#aboutUs .singleUser .singleUserBody .singleUserRole{position: absolute; left: 0px; top: 140px; width: 100%; height: 30px;}
+#aboutUs .singleUser .singleUserBody .singleUserRole p{font-family: 'Roboto', sans-serif; text-align:center; margin:0px; margin-top:6px; color:grey; font-size:14px;}
+
+#aboutUs .singleUser .singleUserBody .singleUserAbout{position: absolute; left: 20px; top: 170px; width: calc(100% - 40px); height: calc(100% - 200px); }
+#aboutUs .singleUser .singleUserBody .singleUserAbout p{font-family: 'Roboto', sans-serif; text-align:justify; margin:0px; margin-top:6px; font-size:14px;}
+
+#aboutUs .singleUser .singleUserBody .singleUserSocial{position: absolute; left: 0px; top: calc(100% - 60px); width: 100%; height: 40px; /* background:rgba(0,0,0,0.3); */ border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; text-align:center;}
+#aboutUs .singleUser .singleUserBody .singleUserSocial .singleUserSocialIcon{position: relative; width: 30px; height: 30px; top: 5px; text-align:center; background:#00C6FF; display: inline-block; border-radius: 5px;}
+#aboutUs .singleUser .singleUserBody .singleUserSocial .singleUserSocialIcon:hover{cursor: pointer; background: #f96816;}
+#aboutUs .singleUser .singleUserBody .singleUserSocial .singleUserSocialIcon img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; max-width: 16px; margin:auto;}
+
+/** END OF ABOUT US **/
+
+
+#mainPartition{position: relative; left: -20px; top: 60px; width: calc(100% + 40px); height: 600px; background:#fff;}
+#mainPartition #mainPartitionBck{position: absolute; left: 0px;  top: 0px; width: 100%; height: 100%; background:rgba(0,0,0,0.05);}
+
+#mainPartition #mainPartitionLeft{position: absolute; width:55%; height: 100%;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart{position: absolute; width:500px; height: 500px; top:50px; left:calc(50% - 250px);}
+
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #middleCircle{position: absolute; width: 100px; height: 100px; left: calc(50% - 50px); top:calc(50% - 50px); border:1px solid rgba(0,0,0,0.1); border-radius: 50%;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #middleCircle:hover{cursor: pointer;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #middleCircle h1{font-family:garamond; font-size:40px; margin:0px; text-align:center; margin-top:26px;}
+
+
+
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotate2 {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #secondCircle{position: absolute; width: 300px; height: 300px; border-radius: 50%; border:1px solid rgba(0,0,0,0.1); left:calc(50% - 150px); top:calc(50% - 150px);  animation-name: rotate; animation-fill-mode:forwards; animation-duration: 40s;  animation-iteration-count: infinite; animation-timing-function: linear; }
+
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #secondCircle .secondCirclePart{position: absolute; left: 213.2px; top: 246.4px; width: 50px; height: 50px; border-radius: 50%; background:#00C6FF;  animation-name: rotate2; animation-fill-mode:forwards; animation-duration: 40s;  animation-iteration-count: infinite; animation-timing-function: linear; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #secondCircle .secondCirclePart:hover{background:#f96816; cursor:pointer;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart:hover #secondCircle .secondCirclePart{-webkit-animation-play-state: paused;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #secondCircle .secondCirclePart img{position: absolute; left: 13px; top: 12px; width:26px; height:26px;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #secondCircle .secondCirclePart1{left:220px; top:10px;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #secondCircle .secondCirclePart2{left:93.8px; top: -21.7px;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #secondCircle .secondCirclePart3{left:-8.65px; top:56.9px;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #secondCircle .secondCirclePart4{left: -12px; top: 186px;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #secondCircle .secondCirclePart5{left: 86.2px; top: 270px;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #secondCircle .secondCirclePart6{left: 274.8px; top: 132.85px;}
+
+
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle{ animation-name: rotate2; animation-fill-mode:forwards; animation-duration: 80s;  animation-iteration-count: infinite; animation-timing-function: linear; position: absolute; left: 0px; top: 0px; width: 500px; height: 500px; border-radius: 50%; border:1px solid rgba(0,0,0,0.1);}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart { position: absolute; left: 480px; top: 230px; width: 40px; height: 40px; border-radius: 50%; background:#00C6FF;  animation-name: rotate; animation-fill-mode:forwards; animation-duration: 80s;  animation-iteration-count: infinite; animation-timing-function: linear; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart:hover{background:#f96816; cursor:pointer;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart:hover #thirdCircle .thirdCirclePart{-webkit-animation-play-state: paused;}
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart img{position: absolute; left: 10px; top: 10px; width:20px; height:20px;}
+
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart2 { left: 454.7px; top: 120.41px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart3 { left: 378.92px; top: 28px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart4 { left: 276.98px; top: -14.54px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart5 { left: 159.52px; top: -12.57px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart6 { left: 69.31px; top: 38.489px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart7 { left: 2.39px; top: 128.32px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart8 { left: -19.85px; top: 238.725px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart9 { left: 9.26px; top: 347.37px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart10 { left: 83.05px; top: 433.25px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart11 { left: 181.59px; top: 476.2px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart12 { left: 298.91px; top: 470.32px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart13 { left: 397.28px; top: 415.79px; }
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart #thirdCircle .thirdCirclePart14 { left: 461.79px; top: 323.65px; }
+
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart:hover #secondCircle,
+#mainPartition #mainPartitionLeft #mainPartitionLeftCirclesPart:hover #thirdCircle{-webkit-animation-play-state: paused;}
+
+#mainPartition #mainPartitionRight{position: absolute; left: 55%; width:calc(45% - 42px); height: 100%; overflow:hidden;}
+#mainPartition #mainPartitionRight #mainPartitionRightHeader{position: absolute; text-align:center; left: 0px; top: 50px; width: 100%; height: 100px; border-bottom:3px solid rgba(0,0,0,0.1);}
+#mainPartition #mainPartitionRight #mainPartitionRightHeader .mainPartitionRightHeaderPart{position: absolute; left: 0px; top: 0px; width: 33%; height: 100%;}
+/* #mainPartition #mainPartitionRight #mainPartitionRightHeader .mainPartitionRightHeaderPart:hover{border-bottom:3px solid #f96816; } */
+#mainPartition #mainPartitionRight #mainPartitionRightHeader .mainPartitionRightHeaderPart0{border-bottom:3px solid #00C6FF; }
+#mainPartition #mainPartitionRight #mainPartitionRightHeader .mainPartitionRightHeaderPart1{left:33%;}
+#mainPartition #mainPartitionRight #mainPartitionRightHeader .mainPartitionRightHeaderPart2{left:66%;}
+
+#mainPartition #mainPartitionRight #mainPartitionRightHeader .mainPartitionRightHeaderPart h3{  position: absolute; left: 0px; bottom: 30px; margin:0px; font-size:24px; margin-left:0px; font-weight: lighter; width:100%; text-align:center;}
+#mainPartition #mainPartitionRight #mainPartitionRightHeader .mainPartitionRightHeaderPart h3:hover{cursor: pointer;}
+
+#mainPartition #mainPartitionRight .mainPartitionRightBody{position: absolute; text-align:center; transition: all 0.2s ease-in-out; left: 0px; top: 160px; width: calc(100% - 42px); height: calc(100% - 160px);}
+#mainPartition #mainPartitionRight .mainPartitionRightBody2{left: 100%;}
+#mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyHeader{position: absolute; left: 0px; top: 0px; width: 100%; height: 60px;}
+#mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyHeader h4{ font-size:26px; font-weight: lighter;}
+#mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyBody{position: absolute; left: 0px; top: 80px; width: 100%; height: calc(100% - 100px);}
+#mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyBody p{ font-size:18px;}
+
+#mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyBody .mainPartitionRightBodyBodyButtons{position: relative; left: 0px; top: 30px; width: 100%;  height: 0px;}
+#mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyBody .mainPartitionRightBodyBodyButtons .mainPartitionRightBodyBodyButtons{position: relative; display: inline-block; background:#00C6FF; width:auto; left: 0px; top: 0px; height: 40px; border-radius: 3px;}
+#mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyBody .mainPartitionRightBodyBodyButtons .mainPartitionRightBodyBodyButtons:hover{cursor: pointer; background:#f96816;}
+#mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyBody .mainPartitionRightBodyBodyButtons .mainPartitionRightBodyBodyButtons a{margin:0px; display: block; color:#fff; margin:0px 30px; font-size:18px;  margin-top:8px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** SCALABLE ***/
+
+@media screen and (max-width: 1150px){
+    #littleAbout{text-align:center;}
+    #mainSlider #socialNetworks{display: none;}
+    #mainSlider img{left:-300px; width: calc(100% + 600px);}
+    #mainPartition #mainPartitionLeft{display:none;}
+    #mainPartition #mainPartitionRight{left:42px; width:calc(100% - 84px);}
+    #mainPartition{height:500px;}
+    #mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyBody .mainPartitionRightBodyBodyButtons{text-align:center;}
+}
+
+@media screen and (max-width: 900px){
+    #mainSlider img{left:-300px; width: calc(100% + 600px);}
+    #mainSlider #mainSliderMiddleText{left: 50px; width: calc(100% - 100px);}
+    
+    #littleAbout #littleAboutBody{left: 50px; width: calc(100% - 100px);}
+    
+}
+
+@media screen and (max-width: 800px){
+    #mainSlider #mainSliderMiddleText #mainSliderMiddleTextHugeText h2{font-size:40px;}
+    #mainSlider #mainSliderMiddleText #mainSliderMiddleTextDesc p{font-size:20px;}
+    
+    
+    #mainPartition #mainPartitionRight #mainPartitionRightHeader{height:60px; top:30px;}
+    #mainPartition #mainPartitionRight #mainPartitionRightHeader .mainPartitionRightHeaderPart h3{width:100%;text-align:center;}
+    
+    #mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyHeader{text-align:center;}
+    #mainPartition #mainPartitionRight .mainPartitionRightBody{top:100px; width:100%;}
+    #mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyBody{text-align:center; }
+    
+}
+
+
+@media screen and (max-width: 600px){
+    #backgroundImage{display: none;}
+    
+    #mainSlider img{left:0px; width: auto; max-width: 100%;}
+    #mainSlider #mainBackground{display: none;}
+    #mainSlider #mobileBackground{display: block;}
+    
+    #mainSlider #mainSliderMiddleText{left: 0px; top: calc(100% - 0px); background:#fff; height: 200px; width:calc(100% - 0px);}
+    #mainSlider #mainSliderMiddleText #mainSliderMiddleTextHugeText{top:30px; left:20px;}
+    #mainSlider #mainSliderMiddleText #mainSliderMiddleTextHugeText h2{text-align:left; position: absolute; color:#333; font-size:24px; left:0px;}
+    #mainSlider #mainSliderMiddleText #mainSliderMiddleTextDesc{top:60px; left:20px; width:calc(100% - 40px);}
+    #mainSlider #mainSliderMiddleText #mainSliderMiddleTextDesc p{text-align:left; font-size:18px; color:#333;}
+    #mainSlider #mainSliderMiddleText #mainSliderMiddleTextCourses{display: none;}
+    #mainSlider #courseBegins{top: calc(100% + 232px); left:20px;}
+    #mainSlider #courseBegins p{color:#333; font-size:15px;}
+    #mainSlider #courseBegins p date{color:#333;}
+    #mainSlider #mainSliderMiddleText #mainSliderMiddleTextCoursesMobile{display: block; bottom:-150px;}
+    
+    #littleAbout{background:rgba(0,0,0,0.05); top: 330px;}
+    .littleAboutTOP{margin-top:130px;}
+    #littleAbout #littleAboutHeader {left:20px; width: calc(100% - 40px);}
+    #littleAbout #littleAboutHeader h2{font-size:22px; margin-top:20px;}
+    
+    #littleAbout #littleAboutBody{left: 20px; width: calc(100% - 40px);}
+    #littleAbout #littleAboutBody p{font-size:15px;}
+    
+    #mainPartition{margin-top:0px; padding-top:40px; background:#fff; top: 250px; padding-bottom: -50px;}
+    #mainPartition #mainPartitionRight{left:20px; width:calc(100% - 40px);}
+    #mainPartition #mainPartitionRight #mainPartitionRightHeader .mainPartitionRightHeaderPart h3{font-size:20px; }
+    
+    #mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyHeader h4{font-size:22px;}
+    #mainPartition #mainPartitionRight .mainPartitionRightBody .mainPartitionRightBodyBody p{font-size:14px;}
+}

@@ -1,0 +1,33 @@
+.faqHeader{position: absolute; top: 100px; width: 100%; height: 100px; text-align:center;}
+.faqHeader h1 #hiddenHeader{}
+
+.faqWrapper{position: relative; left: 150px; top: 200px; width: calc(100% - 300px); height: auto;}
+.faqWrapperx{margin-top:20px;}
+.faqWrapperlast{margin-bottom: 50px;}
+
+.faqWrapper .faqWrapperHeader{position: relative; left: 0px; top: 0px; width: 100%; height: 50px;}
+.faqWrapper .faqWrapperHeader h2{margin:0px; position: absolute; font-size:20px; margin-top: 12px;  color:#333;}
+
+.faqWrapper .faqWrapperBody{position: relative; left: 0px; top: 0px; width: 100%; height: auto; color:#333;}
+.faqWrapper .faqWrapperBody p{ margin:0px; font-size:16px;}
+.faqWrapper .faqWrapperBody p a{color:#00C6FF;}
+
+@media screen and (max-width: 1150px){
+    .faqWrapper .faqWrapperHeader h2{width:100%; text-align:center;}
+    .faqWrapper .faqWrapperBody p{text-align:center;}
+}
+
+@media screen and (max-width: 800px){
+    .faqHeader h1{font-size:26px;}
+    .faqWrapper{top:180px; left:42px; width:calc(100% - 84px);}
+}
+
+@media screen and (max-width: 600px){
+    .faqWrapper{top:180px; left:20px; width:calc(100% - 40px);}
+    .faqHeader h1{font-size:22px;}
+    .faqHeader h1 span{display: none;}
+    .faqWrapper .faqWrapperHeader{height:auto;}
+    .faqWrapper .faqWrapperHeader h2{position:relative;font-size:18px; margin-top:0px;}
+    .faqWrapper .faqWrapperBody{margin-top:20px;}
+    .faqWrapper .faqWrapperBody p{font-size:14px;}
+}

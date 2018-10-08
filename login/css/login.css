@@ -1,0 +1,27 @@
+#mainWrapper { position: fixed; top: 0; left: 0;  width: 100%; height: 100%; }
+
+#mainWrapper #mainWrapperFormWrapper { position: fixed; top: 15%; left: calc(50% - 225px); width: 450px; height: 550px;  }
+
+
+/* naslov */
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperHeader { position: absolute; top: 0; left: 50px; right: 50px; width: calc(100% - 100px); height: 80px;  text-align: center; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperHeader h1 { font-family: garamond; font-size:30px; font-weight: bold; padding: 0; margin: 0; margin-top: 20px; color: #333; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperHeader h1 letter { color: #333; }
+
+/* input */
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper { position: absolute; top: 80px; left: 0; width: 100%; height: calc(100% - 80px); }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInput { position: absolute; top: 40px; bottom: 100px; left: 75px; right: 50px; width: calc(100% - 150px); height: calc(100% - 150px); }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInput p { padding: 0; margin: 0; margin-bottom: 5px; font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 15px; color: #777; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInput input { box-shadow: inset 0 1px 2px rgba(0,0,0,0.3); outline: none; width: calc(100% - 15px); height: 40px; padding: 0; margin: 0; margin-bottom: 20px; padding-left: 10px; font-family: garamond; font-size: 17px; border: 1px solid #999; border-radius: 2px; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInput #submit { outline: none; box-shadow: none; width: 40%; margin: 0; padding: 0; border: none; margin-left: 60%; background: #f96816; color: white; font-family: 'Roboto', sans-serif; font-size: 18px; transition: background-color 0.5s ease; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInput #submit:hover { cursor: pointer; background: #fd772b; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInput #kreirajNalog { text-decoration: none; color: #00C6FF; font-family: garamond; font-size: 16px; padding: 0; margin: 0; margin-left: 35%; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInput #forgotPassword { position: absolute; top: 180px; text-decoration: none; color: #00C6FF; font-family: garamond; font-size: 16px; padding: 0; margin: 0; }
+
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInputWrapper #mainWrapperFormWrapperInputWrapperInput #termsAndConditions { text-decoration: none; color: #00C6FF; font-family: garamond; font-size: 16px; padding: 0; margin: 0; margin-left: 33%; }
+
+
+
+
+
+

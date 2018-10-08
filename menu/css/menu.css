@@ -1,0 +1,72 @@
+#topMenu{position: fixed; left: 0px; top: 0px; width: 100%; height: 70px; border-bottom:1px solid rgba(0,0,0,0.1); z-index:1000; background:#fff;}
+
+#topMenu #topMenuLogo{position: absolute; left: calc(50% - 200px); top: 0px; width: 400px; height: 100%;}
+#topMenu #topMenuLogo h1{margin:0px; font-family: garamond; font-size:40px; text-align:center; margin-top:11px; color:#333;}
+#topMenu #topMenuLogo h1 letter{color: /*#0078FF #FF6410 */ #333;}
+
+
+#topMenu #simpleLinks{position: absolute; right: 0px; width: calc(50% - 180px); height: 100%; text-align:right;}
+#topMenu #simpleLinks .topMenuLinks{position: relative; right: 0px; top: 0px; height: 100%; margin:0px 10px; display: inline-block;}
+#topMenu #simpleLinks .topMenuLinks0{margin-right:20px;}
+#topMenu #simpleLinks .topMenuLinks a{ margin-top:12px; display: block; color:#333; margin-top:27px; font-size:18px;}
+/*
+#topMenu .topMenuLeftLinks{position: absolute; left: 20px; width: 300px; height: 40px; top: 0px;}
+#topMenu .topMenuLeftLinks a{ margin-top:12px; display: block; color:#333; margin-top:27px; font-size:18px;}
+*/
+
+
+
+@keyframes singUpColor {
+    from {background: #00C6FF;}
+    to {background: #f96816;}
+}
+
+#topMenu #signUp{position: absolute; right: 0px; width: 200px; height: 100%; background:#00C6FF; text-align:center; transition: all 0.2s ease-in-out;}
+#topMenu #signUp:hover{animation-name: singUpColor; animation-duration: 1s; background:#f96816;}
+#topMenu #signUp a{display: block; color:#fff;  margin-top: 27px; font-size:14px;}
+
+/*** MOBILE STYLE ***/
+
+#topMenu #mobileMenuIcon,
+#topMenu #mobileMenuCourses{position: absolute; display: none; left: 0px; top: 0px; width: 70px; height: 70px;}
+#topMenu #mobileMenuCourses{left: calc(100% - 70px);}
+#topMenu #mobileMenuIcon:hover,
+#topMenu #mobileMenuCourses:hover{cursor: pointer;}
+#topMenu #mobileMenuIcon img,
+#topMenu #mobileMenuCourses img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; width:25px; height: 25px; margin:auto; }
+
+#mobileLeftMenu{position: fixed; display: none; left: 0px; top: 0px; width: 320px; height: 100%; background:#fff; z-index: 1200; border-right:1px solid #333;}
+#mobileLeftMenu .mobileLeftMenuHeader{position: absolute; left: 0px; top: 0px; width: 100%; height: 100px; border-bottom:1px solid rgba(0,0,0,0.1);}
+#mobileLeftMenu .mobileLeftMenuHeader h4{ font-size:24px; margin-left: 20px; position: absolute; margin-top:50px;}
+#mobileLeftMenu .mobileLeftMenuHeader img{position: absolute; right: 20px; top: 55px; width:20px;}
+#mobileLeftMenu .mobileLeftMenuHeader img:hover{cursor: pointer;}
+
+#mobileLeftMenu #mobileLeftMenuBody{position: absolute; left: 0px; top: 100px; width: 100%; height: calc(100% - 300px); overflow:auto;}
+#mobileLeftMenu #mobileLeftMenuBody .mobileLeftMenuLink{position: relative; left: 0px; top: 0px; width: 100%; height: 50px; border-bottom:1px solid rgba(0,0,0,0.1);}
+#mobileLeftMenu #mobileLeftMenuBody .mobileLeftMenuLink a{position: absolute; left: 20px;  font-size:16px; text-decoration: none; color:#333; margin-top: 16px;}
+
+
+#loadingGif{position: fixed; left: 0px; top:0px; width:100%; height:100%; background:#fff; z-index: 2000;}
+#loadingGif #loadingGifImageWrapper{position: absolute; width: 200px; height: 200px; left: calc(50% - 100px); top: calc(50% - 100px); }
+#loadingGif #loadingGifImageWrapper #loadingGifLogo{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; width: 100px; margin:auto;}
+
+@media screen and (max-width: 1250px){
+    #topMenu #simpleLinks{right: 0px; }
+    
+    #topMenu #signUp{width: 160px;}
+    #topMenu #simpleLinks .topMenuLinks a{font-size:16px;}
+}
+
+@media screen and (max-width: 1150px){
+    #topMenu #simpleLinks,
+    #topMenu #signUp{display: none;}
+    
+    #mobileLeftMenu #mobileLeftMenuBody,
+    #topMenu #mobileMenuIcon{display: block;}
+}
+
+@media screen and (max-width: 600px){
+    #topMenu #topMenuLogo h1{font-size:26px; margin-top:24px;}    
+}
+
+

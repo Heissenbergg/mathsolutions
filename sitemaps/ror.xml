@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://mathsolutions.ba/</title>
+  <link>http://mathsolutions.ba/</link>
+
+<item>
+     <link>http://mathsolutions.ba/</link>
+     <title>Math Solutions</title>
+     <description>MathSolutions organizuje kurseve za sve zainteresovane. Elementarna matematika za fakultete. Vaš uspjeh zagarantovan.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mathsolutions.ba/index.php</link>
+     <title>Math Solutions</title>
+     <description>MathSolutions organizuje kurseve za sve zainteresovane. Elementarna matematika za fakultete. Vaš uspjeh zagarantovan.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mathsolutions.ba/kontakt.php</link>
+     <title>Kontaktirajte nas</title>
+     <description>Kontaktirajte nas</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mathsolutions.ba/faq.php</link>
+     <title>FAQs</title>
+     <description>FAQs</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mathsolutions.ba/courses.php</link>
+     <title>Pregled kurseva</title>
+     <description>Pregled kurseva</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

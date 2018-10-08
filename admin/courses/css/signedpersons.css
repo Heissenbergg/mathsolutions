@@ -1,0 +1,33 @@
+section .mainBody .thisCourse{position:relative; left:0px; top:0px; width:100%; height:40px; border:1px solid rgba(0,0,0,0.1);}
+
+section .mainBody .thisCourse .thisCourseShowMore{position:absolute; right:0px; top:0px; width:40px; height:40px; border-left:1px solid rgba(0,0,0,0.1);}
+section .mainBody .thisCourse .thisCourseShowMore i{position:absolute; left:12px; top:12px;}
+section .mainBody .thisCourse .thisCourseShowMore i:hover{cursor:pointer; color:#f96816;}
+
+section .mainBody .thisCourse p{position:absolute; left:0px; margin-top:10px; margin-left:20px;font-family: myfont; font-weight: bold;}
+section .mainBody .thisCourse1 p{font-weight: lighter;}
+section .mainBody .thisCourse .thisCourseSignedPeoples{position:absolute; right:40px; top:0px; width:200px; height:40px;border-left:1px solid rgba(0,0,0,0.1);}
+section .mainBody .thisCourse .thisCourseSignedPeoples i{position:absolute; left:12px; top:12px;}
+section .mainBody .thisCourse .thisCourseSignedPeoples p{position:absolute; left:40px; margin:0px; font-family:myfont; margin-top:8px;}
+
+section .mainBody .thisCourseSigned{position:relative; left:0px; top:0px; width:100%; height:0px; overflow:hidden; background:rgba(0,0,0,0.02); border-top:none; transition: all 0.2s ease-in-out;}
+section .mainBody .thisCourseSigned .thisCourseSignedOption{position:relative; left:0px; top:0px; width:100%; height:40px; border-bottom:1px solid rgba(0,0,0,0.1);}
+section .mainBody .thisCourseSigned .thisCourseSignedOption2{border-bottom:none;}
+
+section .mainBody .thisCourseSigned .thisCourseSignedOption .thisCourseSignedOptionID{position:absolute; left:0px; top:0px; width:60px; height:40px;}
+section .mainBody .thisCourseSigned .thisCourseSignedOption .thisCourseSignedOptionID p{position:absolute; width:100%; text-align:center; margin:0px; font-family:myfont; margin-top:8px;}
+
+section .mainBody .thisCourseSigned .thisCourseSignedOption .thisCourseSignedOptionDelete{position: absolute; right: 0px; top: 0px; width:40px; height: 40px;}
+section .mainBody .thisCourseSigned .thisCourseSignedOption .thisCourseSignedOptionDelete i{position:absolute; left:12px; top:12px;}
+section .mainBody .thisCourseSigned .thisCourseSignedOption .thisCourseSignedOptionDelete i:hover{cursor:pointer; color:#f96816;}
+
+section .mainBody .thisCourseSigned .thisCourseSignedOption .thisCourseSignedOptionOpt{position:relative; right:40px; top:0px; width:160px; height:40px; float:right;}
+section .mainBody .thisCourseSigned .thisCourseSignedOption .thisCourseSignedOptionOpt1{position:absolute; left:60px;}
+section .mainBody .thisCourseSigned .thisCourseSignedOption .thisCourseSignedOptionOpt p{position:absolute; left:20px; font-size:14px; margin-top:10px; font-family:myfont;}
+
+section .mainBody .thisCourseSigned .thisCourseSignedOption2 .thisCourseSignedOptionOpt p{font-size:12px; margin-top:12px;}
+
+
+
+
+

@@ -1,0 +1,217 @@
+body{overflow-x: hidden;}
+
+#mainWrapper { background: rgba(0,0,0,0.1); position: absolute; top: 70px; left: 0; width: 100%; height: calc(100% - 70px); }
+
+#mainWrapper #mainWrapperTabsWrapper{ background: #fff; position: absolute; top: 10px; left: 0; width: calc(100% - 329px); height: calc(100% - 10px); overflow: hidden; }
+#mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader{position: absolute; left: 42px; top: 0px; width: calc(100% - 84px); height: 90px; border-bottom:3px solid rgba(0,0,0,0.1); text-align:right;}
+#mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader #nameOfCourse{position: absolute; left: 0px; top: 0px; width: 300px; height: 100%; text-align:left;}
+#mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader #nameOfCourse h4{ font-size:20px; margin:0px 2px; margin-top:40px; font-weight: lighter;}
+
+#mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader .mainWrapperTabsWrapperHeaderOption{position: relative; left: 0px; top: 0px; height: 100%; display: inline-block; margin:0px 30px;}
+#mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader .mainWrapperTabsWrapperHeaderOption:hover{cursor: pointer;}
+#mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader #mainWrapperTabsWrapperHeaderOption0{border-bottom:3px solid #00C6FF;}
+#mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader .mainWrapperTabsWrapperHeaderOption p{font-size:20px; margin:0px 2px; margin-top:40px;}
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs{position: absolute; left: 42px; top: 100px; width: calc(100% - 84px); height: calc(100% - 110px); transition: all 1s ease-in-out;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2{position: absolute; left: 100%; top: 100px; width: calc(100% - 84px); height: calc(100% - 110px); transition: all 1s ease-in-out;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs3{position: absolute; left: 200%; top: 100px; width: calc(100% - 84px); height: calc(100% - 110px); transition: all 1s ease-in-out;}
+
+
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs{overflow:auto;}
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne{position: relative; left: 0px; top: 0px; width: 100%; height: auto; border-bottom:1px solid rgba(0,0,0,0.2);}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneHeader{position: relative; left: 0px; top: 0px; width: 100%; height: 60px; text-align:center; padding-top:20px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneHeader h4{ display: block; font-size:26px; margin-top:16px; margin-left:0px; font-weight: lighter;}
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet{position: relative; left: 0px; top: 0px; width: 100%; height: 40px; margin-top:20px;  text-align:center;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail{position: relative; left: 0px;  top: 0px; height: 100%; margin:0px 15px; display: inline-block;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail img{position: absolute; left: 0px; top: 24px; width:16px; height: 16px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail i{position: absolute; left: 0px; top: 24px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail p{ font-size:20px; margin:0px 2px; margin-top:20px; margin-left:30px;}
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDesc{position: relative; text-align:center; left: 0px; top:0px; width:100%; margin-top:30px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneReservation{position: relative; left: 0px; top: 0px; width: 100%; height: 40px; margin-top:20px;  text-align:center; margin-bottom:20px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneReservation .tabsCoursesCourseOneReservationButton{width:200px; height:32px; margin-left:calc(50% - 100px); padding-top:2px; /*border:2px solid #00C6FF; */ background:#00C6FF; border-radius: 2px; transition: all 0.2s ease-out; text-align:center;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneReservation .tabsCoursesCourseOneReservationButton:hover{/*border:2px solid #f96816;*/ cursor: pointer; background:#f96816;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneReservation .tabsCoursesCourseOneReservationButton p{width:100%; margin:0px; margin-top:6px; color:#fff;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneReservation .tabsCoursesCourseOneReservationButton:hover p{color:#fff;}
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .moreArrow{position: absolute; right: 0px; bottom: 10px; width: 50px; height: 60px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .moreArrow i{position: absolute; left: 0px; top: 26px; font-size: 30px; font-weight: lighter;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .moreArrow i:hover{cursor: pointer; color:#f96816;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .moreArrow .fa-minus{display: none;}
+
+
+
+
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo{margin-top:0px; height: 0px; overflow:hidden; transition: all 0.5s ease-out; background:rgba(0,0,0,0.05);}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft{position: absolute; left: 0px; top: 20px; width: 400px; height: calc(100% - 40px); border-right:1px solid rgba(0,0,0,0.1);}
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftHeader{position: absolute; left: 20px; top: 0px; width:calc(100% - 40px); height: calc(100% - 160px);}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftHeader p{ margin:0px; }
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftTeachers{position: absolute; left: 20px; top:150px; width: calc(100% - 40px); height: 140px; }
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftTeachers .tabsCoursesCourseTwoLeftTeachersHead{position: absolute; left: 0px; top: 0px; width: 100%; height: 50px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftTeachers .tabsCoursesCourseTwoLeftTeachersHead h4{ margin:0px; font-size:20px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftTeachers .tabsCoursesCourseTwoLeftTeachersAll{position: relative; left:0px; top: 50px; width:100%; height: 25px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftTeachers .tabsCoursesCourseTwoLeftTeachersAll p{ margin:0px; font-size:14px;}
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight{position: absolute; right: 20px; width: calc(100% - 400px); top: 20px; height: calc(100% - 40px);}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .tabsCoursesCourseTwoRightIcon{position: absolute; width: 100px; height: 100px; left: calc(50% - 50px); top: 20px; border-radius: 50%; border:1px solid rgba(0,0,0,0.2);}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .tabsCoursesCourseTwoRightIcon img{position: absolute; left: 20px; top: 20px; width: 60px; height: 60px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .tabsCoursesCourseTwoRightNameOfCourse{position: absolute; left: 20px; top: 140px; width: calc(100% - 40px); height: 80px; text-align:center;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .tabsCoursesCourseTwoRightNameOfCourse h3{ font-size:26px; margin-top:6px; display: block;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .tabsCoursesCourseTwoRightNameOfCourse p{ font-size:14px; margin:0px; display: block; margin-top:-0px; margin-left: 20px; margin-right: 20px;}
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .signUpforThisCourse{position: absolute; text-align:center; top:260px; width: 200px; height: 30px; left:calc(50% - 100px); border:2px solid #00C6FF; border-radius: 2px; transition: all 0.5s ease-out;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .signUpforThisCourse:hover{border:2px solid #f96816; cursor: pointer; background:#f96816;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .signUpforThisCourse a{ display: block; margin-top:5px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .signUpforThisCourse:hover a{color:#fff;}
+
+
+
+/** *** prijavi čitav kurs *** **/
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm{position:absolute; width:450px; top:50px; left:calc(50% - 225px); height:calc(100% - 100px);}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormHeader{position:relative; left:0px;  top:0px; width:100%; text-align:center;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormHeader h4{font-size:24px; margin-top:10px;}
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody{position:relative; left:50px; top:0px; width:calc(100% - 100px); height:calc(100% - 50px);}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody .hugeTabFormBodynameOf{position:relative; left:0px; width:100%; height:25px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody .hugeTabFormBodynameOf p{font-weight: bold; font-size: 15px; color: #777;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody .hugeTabFormBodyInput{position: relative; left: 0px; top: 0px; width: 100%; height: auto; }
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody .hugeTabFormBodyInput input { box-shadow: inset 0 1px 2px rgba(0,0,0,0.3); outline: none; width: calc(100% - 15px); height: 40px; padding: 0; margin: 0; margin-bottom: 0px; padding-left: 10px;  font-size: 17px; border: 1px solid #999; border-radius: 2px; }
+
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody .hugeTabFormBodySubmit{height: 40px; margin-top:40px; margin-bottom:42px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody .hugeTabFormBodySubmit:hover{cursor: pointer;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody .hugeTabFormBodySubmit .hugeTabFormBodySubmitSubmit{position: absolute; right:0px; width: 100%; height: 100%; background:#00C6FF; text-align:center; border-radius: 3px;}
+#mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody .hugeTabFormBodySubmit .hugeTabFormBodySubmitSubmit p{color:#fff; margin-top:10px;}
+
+/** END OF COURSES DETAILS **/
+
+
+
+
+#mainWrapper #mainWrapperMenuWrapper { background: #fff; position: absolute; top: 10px; right: 10px; width: 310px; height: calc(100% - 330px); border-left:1px solid rgba(0,0,0,0.1); z-index:100;}
+#mainWrapper #mainWrapperMenuWrapper #mainWrapperMenuWrapperHeader{position: absolute; left: 15px; top: 0px; width: calc(100% - 30px); height: 50px; border-bottom:1px solid rgba(0,0,0,0.2);}
+#mainWrapper #mainWrapperMenuWrapper #mainWrapperMenuWrapperHeader h1{ font-size:20px; margin-top:16px; margin-left:10px;}
+
+#mainWrapper #mainWrapperMenuWrapper #mainWrapperMenuWrapperBody{position: absolute; left: 15px; top: 52px; width: calc(100% - 30px); height: calc(100% - 75px);}
+#mainWrapper #mainWrapperMenuWrapper #mainWrapperMenuWrapperBody .mainWrapperMenuWrapperCategory{position: relative; left: 0px; top: 0px; width: 100%; height: 40px; border-bottom:1px solid rgba(0,0,0,0.1);}
+#mainWrapper #mainWrapperMenuWrapper #mainWrapperMenuWrapperBody .mainWrapperMenuWrapperCategory:hover{cursor:pointer;}
+#mainWrapper #mainWrapperMenuWrapper #mainWrapperMenuWrapperBody .mainWrapperMenuWrapperCategory p{position: absolute; left: 0px; margin:0px; margin-top:10px; font-size:18px; margin-left:10px;}
+#mainWrapper #mainWrapperMenuWrapper #mainWrapperMenuWrapperBody .mainWrapperMenuWrapperCategory:hover p{color:#00C6FF;}
+#mainWrapper #mainWrapperMenuWrapper #mainWrapperMenuWrapperBody .mainWrapperMenuWrapperCategory0 p{color:#00C6FF;}
+#mainWrapper #mainWrapperMenuWrapper #mainWrapperMenuWrapperBody .mainWrapperMenuWrapperCategory i{position: absolute; right: 10px; top: 12px;}
+#mainWrapper #mainWrapperMenuWrapper #mainWrapperMenuWrapperBody .mainWrapperMenuWrapperCategory i:hover{cursor: pointer; color:#00C6FF;}
+
+#mainWrapper #mainWrapperContactForm{position: absolute; right: 10px; bottom: 0px; width: 310px; height: 310px; background:#fff;}
+
+
+@media screen and (max-width: 1250px){
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail img{width:14px; top:25px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail p{font-size:16px; margin-top:24px;}
+}
+
+@media screen and (max-width: 1150px){
+    #mainWrapper #mainWrapperTabsWrapper{width:100%;}
+    #mainWrapper #mainWrapperMenuWrapper{right:-320px; height: calc(100% - 10px); transition: all 0.5s ease-in-out;}
+    #topMenu #mobileMenuCourses{display: block;}
+}
+
+@media screen and (max-width: 1000px){
+    
+
+    
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo{height:0px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft{width:350px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftHeader p{font-size:14px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftTeachers{top:130px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight{right:0px; width:calc(100% - 350px);}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .tabsCoursesCourseTwoRightIcon{width:80px; height:80px; top:0px; left:calc(50% - 40px);}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .tabsCoursesCourseTwoRightIcon img{width:40px; height:40px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .tabsCoursesCourseTwoRightNameOfCourse{top:100px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .tabsCoursesCourseTwoRightNameOfCourse h3{font-size:22px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .tabsCoursesCourseTwoRightNameOfCourse p{font-size:14px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .signUpforThisCourse{top:220px; width:160px; left:calc(50% - 80px);}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight .signUpforThisCourse a{font-size:14px; margin-top:6px;}
+}
+
+@media screen and (max-width: 800px){
+    
+    #mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader{left:20px; width:calc(100% - 40px); text-align:center;}
+    
+    #mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader #nameOfCourse{width:100%; height:50px; text-align:center;}
+    #mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader #nameOfCourse h4{top:0px; margin-top:14px;}
+    
+    #mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader .mainWrapperTabsWrapperHeaderOption{top:50px; margin:0px 10px; height:40px; text-align:center;}
+    #mainWrapper #mainWrapperTabsWrapper #mainWrapperTabsWrapperHeader .mainWrapperTabsWrapperHeaderOption p{margin-top:8px; font-size:14px;}
+    
+    
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs{left:20px; width:calc(100% - 40px);}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs2{left: 100%;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs3{left: 200%; }
+    
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneHeader{text-align:center;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneHeader h4{font-size:20px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet{height:80px; bottom:0px; left:0px; width:100%;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail{position:absolute; height:30px; margin:0px; width:50%;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail img{top:6px; }
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail i{top:6px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail p{margin-top:7px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail1{left:50%; text-align:right;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail1 img{left:calc(100% - 16px);}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail1 p{margin-right:30px;}
+ 
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail2{top:30px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail3 {left:50%; top:30px; text-align:right;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail3 i{left:calc(100% - 16px);}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail3 p{margin-right:30px; margin-left:0px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail2 p,
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .tabsCoursesCourseOneDetDetail4 p{position: absolute;}
+
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .moreArrow{bottom:0px; right:calc(50% - 25px); }
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneDet .moreArrow i{left:15px;}
+
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseOne .tabsCoursesCourseOneReservation .tabsCoursesCourseOneReservationButton p{margin-top:8px;}
+
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo{height:0px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft{width:100%; top:300px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoRight{right:0px; width:100%;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftHeader{text-align:center;}
+
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftTeachers .tabsCoursesCourseTwoLeftTeachersHead{text-align:center;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs .tabsCoursesCourseTwo .tabsCoursesCourseTwoLeft .tabsCoursesCourseTwoLeftTeachers .tabsCoursesCourseTwoLeftTeachersAll{text-align:center;}
+
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs2{overflow-x:hidden;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm{left:0px; width:100%; top:20px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormHeader{}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormHeader h4{font-size:20px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody{left:20px; width:calc(100% - 40px);}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody .hugeTabFormBodynameOf p{font-size:14px;}
+    #mainWrapper #mainWrapperTabsWrapper .hugeTabs2 .hugeTabForm .hugeTabFormBody .hugeTabFormBodyInput input{height:30px; font-size:15px;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
